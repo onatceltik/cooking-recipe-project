@@ -1,7 +1,5 @@
 # Virtual Environments (This stops your massive venv folder from uploading)
 venv/
-env/
-ENV/
 
 # Python Cache (These are hidden folders Python makes to run faster)
 __pycache__/
