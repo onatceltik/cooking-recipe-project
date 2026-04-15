@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from app.database import engine
-from app.models import recipe
+from app.models import recipe as recipe_models
 from app.routers import recipes
 
 # Tell SQLAlchemy to create all tables in the database
-recipe.Base.metadata.create_all(bind=engine)
+recipe_models.Base.metadata.create_all(bind=engine)
 
 # Initialize the application instance
 app = FastAPI(title="Recipe App API")
