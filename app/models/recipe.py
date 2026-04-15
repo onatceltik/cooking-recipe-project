@@ -10,5 +10,6 @@ class Recipe(Base):
 
     ingredients = Column(JSON)
     instructions = Column(Text)
+    my_notes = Column(Text)
 
     source_url = Column(String)
