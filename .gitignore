@@ -10,6 +10,7 @@ __pycache__/
 # Secrets and Passwords (CRITICAL)
 .env
 secret.json
+recipes.db
 
 # OS generated files (Stops annoying Windows/Mac system files)
 .DS_Store
