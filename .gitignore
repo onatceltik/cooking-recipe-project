@@ -1,0 +1,17 @@
+# Virtual Environments (This stops your massive venv folder from uploading)
+venv/
+
+# Python Cache (These are hidden folders Python makes to run faster)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets and Passwords (CRITICAL)
+.env
+secret.json
+recipes.db
+
+# OS generated files (Stops annoying Windows/Mac system files)
+.DS_Store
+Thumbs.db
